@@ -1,0 +1,2 @@
+if($_POST['paymethod']=="PayTM"){
+		header('location:https://www.paytm.com');}
