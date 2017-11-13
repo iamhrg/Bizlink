@@ -424,9 +424,9 @@ $num=mysql_num_rows($rt);
 								<span class="social-label">Share :</span>
 								<div class="social-icons">
 						            <ul class="list-inline">
-						                <li><a class="fa fa-facebook" href="http://facebook.com/transvelo"></a></li>
-						                <li><a class="fa fa-twitter" href="#"></a></li>
-						                <li><a class="fa fa-linkedin" href="#"></a></li>
+						                <li><a class="fa fa-facebook" href="https://www.facebook.com/DatabaseDudes/?ref=br_rs"></a></li>
+						                <li><a class="fa fa-twitter" href="https://www.twitter.com/iamhrg"></a></li>
+						                <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/iamhrg"></a></li>
 						                <li><a class="fa fa-rss" href="#"></a></li>
 						                <li><a class="fa fa-pinterest" href="#"></a></li>
 						            </ul><!-- /.social-icons -->

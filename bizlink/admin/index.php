@@ -64,8 +64,9 @@ exit();
 				
 					<ul class="nav pull-right">
 
-						<li><a href="http://localhost/bizlink/">
-						Back to Bizlink</a></li>
+						<li><a href="http://localhost/bizlink/"> <input type="button" value="Back to Bizlink" name="Bizlink" class="btn btn-primary" /></a>
+              
+                        </li>
 
 						
 

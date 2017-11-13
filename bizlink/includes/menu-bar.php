@@ -24,17 +24,16 @@ a:link {
                 <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
 	<div class="nav-outer">
 		<ul class="nav navbar-nav">
-			<li class="active dropdown yamm-fw">
-				<a href="index.php" data-hover="dropdown" class="dropdown-toggle">Home</a>
-				
+			<li class="dropdown yamm-fw">
+				<a href="index.php" data-hover="dropdown" class="dropdown yamm-fw">Home</a>
 			</li>
               <?php $sql=mysql_query("select id,categoryName  from category limit 6");
 while($row=mysql_fetch_array($sql))
 {
     ?>
 
-			<li class="dropdown yamm">
-				<a href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
+			<li class="dropdown yamm-fw">
+				<a href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?> </a>
 			
 			</li>
 			<?php } ?>

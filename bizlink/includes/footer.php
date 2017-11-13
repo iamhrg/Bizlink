@@ -21,7 +21,7 @@
     <div>
       <div class="social-icons">
         
-        <p align="center"><a href="https://www.facebook.com/DatabaseDudes/?ref=br_rs" class='active'><i class="icon fa fa-facebook"></i></a>
+        <p align="center"><a href="https://www.facebook.com/DatabaseDudes/?ref=br_rs"><i class="icon fa fa-facebook"></i></a>
           <a href="https://www.twitter.com/iamhrg"><i class="icon fa fa-twitter"></i></a>
           <a href="https://www.linkedin.com/in/iamhrg"><i class="icon fa fa-linkedin"></i></a>
           <a href="#"><i class="icon fa fa-rss"></i></a>

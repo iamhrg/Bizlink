@@ -9,10 +9,13 @@ $name=$_POST['fullname'];
 $email=$_POST['emailid'];
 $contactno=$_POST['contactno'];
 $password=($_POST['password']);
+if ($contactno>0 and is_string($contactno)=="false")
+{
 $query=mysql_query("insert into users(name,email,contactno,password) values('$name','$email','$contactno','$password')");
 if($query)
 {
 	echo "<script>alert('You have Successfully Registered with Bizlink!');</script>";
+}
 }
 else{
 echo "<script>alert('Not Registered! Something went Wrong! ');</script>";
@@ -139,7 +142,7 @@ return true;
 	<div class="container">
 		<div class="breadcrumb-inner">
 			<ul class="list-inline list-unstyled">
-				<li><a href="home.html">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li class='active'>Authentication</li>
 			</ul>
 		</div><!-- /.breadcrumb-inner -->
@@ -198,7 +201,7 @@ echo htmlentities($_SESSION['errmsg']="");
 
 <div class="form-group">
 	    	<label class="info-title" for="contactno">Contact No. <span>*</span></label>
-	    	<input type="text" class="form-control unicase-form-control text-input" id="contactno" name="contactno" maxlength="10" required >
+	    	<input type="text" class="form-control unicase-form-control text-input" id="contactno" name="contactno" minlength="10" maxlength="10" required >
 	  	</div>
 
 <div class="form-group">
