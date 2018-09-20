@@ -1,0 +1,1 @@
+Bizlink is a product of a Database Management Systems' project. It is one of the the most innovative e-Commerce systems platform with advanced features and functions. It now not only enables a customer to order for a commodity but also for a service. It caters to the complete A-Z needs of a customer revolving around the daily life commodities and services purchased.
